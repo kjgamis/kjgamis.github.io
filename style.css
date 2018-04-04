@@ -53,13 +53,19 @@ header {
 }
 
 #menu {
+  position: absolute;
+  right: 10px;
+}
+
+#menu li {
+  float: left;
 }
 
 #menu li a {
-  border: 2px solid #ee0000;
+  border: 2px solid rgba(0, 0, 0, 0.3);
   border-radius: 6px;
   display: inline-block;
-  float: right;
+  /* float: left; */
   font-size: 1.20em;
   list-style: none;
   margin: 0 5px;
@@ -69,6 +75,17 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   top: 5%;
+}
+
+#menu .active {
+  border: 2px solid #ee0000;
+  border-radius: 6px;
+}
+
+#menu li a:hover {
+  border: 2px solid #ee0000;
+  border-radius: 6px;
+  transition: .3s;
 }
 
 #banner {
@@ -83,10 +100,12 @@ header {
 
 #tagline {
   font-size: 4.5em;
+  color: #dadada
 }
 
 #identity {
   font-size: 3em;
+  color: #6e6e6e;
 }
 
 #aboutMe {
