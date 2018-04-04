@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+h2, h3, h4, p{
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.title {
+  font-size: 2.5em;
+  padding: 3% 0 2.5% 0;
+  text-align: center;
+}
+
+body {
+  font-size: 12px;
+  font-weight: 200;
+  font-family: 'Didact Gothic', sans-serif;
+  text-decoration: none;
+  margin: 0;
+}
+
+header {
+   background: url(images/header-bg.jpg) no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   color: #FFF;
+}
+
+#container {
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+#logo {
+  float: left;
+}
+
+#logo h1 a {
+  font-size: 1em;
+  left: 10%;
+  position: relative;
+}
+
+#menu {
+}
+
+#menu li a {
+  border: 2px solid #ee0000;
+  border-radius: 6px;
+  display: inline-block;
+  float: right;
+  font-size: 1.20em;
+  list-style: none;
+  margin: 0 5px;
+  position: relative;
+  padding: 10px;
+  right: 5%;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 5%;
+}
+
+#banner {
+  padding: 10% 0 30% 0;
+  text-align: center;
+  /* border: 10px black solid; */
+}
+
+.line {
+  margin: 0;
+}
+
+#tagline {
+  font-size: 4.5em;
+}
+
+#identity {
+  font-size: 3em;
+}
+
+#aboutMe {
+  background: #e3e3e0;
+  overflow: hidden;
+  padding: 0 0 5% 0;
+}
+
+#aboutMe img {
+  float: left;
+  text-align: center;
+  width: 30%;
+  border-radius: 500px;
+  border: 2px black solid;
+  margin-left: 5%;
+}
+
+.description {
+  font-size: 1.5em;
+  padding: 5% 2.5% 10% 38%;
+  position: relative;
+}
+
+
+#build {
+  overflow: hidden;
+  padding: 0 0 5% 0;
+  text-align: center;
+}
+
+#build img {
+  width: 100px;
+  height: 100px;
+}
+
+footer {
+  background: #0b0b0b;
+  padding: 2% 0;
+}
+
+#footer-content {
+  color: #FFF;
+  padding: 10% 0 0 0 2%;
+  text-align: center;
+}
+
+#footer-content img {
+  width: 25px;
+  height: 25x;
+  margin: 5px;
+}
+
+#maker {
+  color: #FFF;
+  padding: 1% 0 0 0;
+  text-align: center;
+}
