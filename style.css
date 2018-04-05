@@ -138,8 +138,8 @@ header {
 }
 
 #build img {
-  width: 100px;
-  height: 100px;
+  width: 10%;
+  height: auto;
 }
 
 footer {
@@ -163,4 +163,26 @@ footer {
   color: #FFF;
   padding: 1% 0 0 0;
   text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .title {
+    font-size: 1em;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  #banner {
+
+  }
+
+  #tagline {
+    font-size: 3em;
+  }
+
+  #identity {
+    font-size: 1em;
+  }
 }
