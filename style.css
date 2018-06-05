@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-h2, h3, h4, p{
+h2, h3, h4, p, ul {
   margin: 0;
 }
 
@@ -144,14 +144,32 @@ header {
 }
 
 /* Projects section */
+#projects {
+  background: #f4e3b1;
+}
 
-#projects h3 {
+#projects a {
   font-size: 1.5em;
   font-weight: 200;
+  color: #000;
+}
+
+#projects h3 {
+  margin: 5em 1em 1em 1em;
+}
+
+#projects p {
+  margin: 0 1em;
 }
 
 #projects img {
-  width: 40%;
+  width: 100%;
+}
+
+
+#projects li {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 /* Footer contents */
