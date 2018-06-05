@@ -130,6 +130,7 @@ header {
   position: relative;
 }
 
+/* Tools Section */
 
 #build {
   overflow: hidden;
@@ -142,6 +143,18 @@ header {
   height: auto;
 }
 
+/* Projects section */
+
+#projects h3 {
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+#projects img {
+  width: 40%;
+}
+
+/* Footer contents */
 footer {
   background: #0b0b0b;
   padding: 2% 0;
