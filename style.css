@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-h2, h3, h4, p, ul {
+h2, h3, h4, h5, p, ul {
   margin: 0;
 }
 
@@ -151,8 +151,6 @@ header {
 }
 
 #projects a {
-  font-size: 1.5em;
-  font-weight: 200;
   color: #000;
 }
 
@@ -172,16 +170,18 @@ header {
 }
 
 .project h3 {
-  font-size: 2em;
-  width: 8em;
-  text-align: center;
-  padding: 0.15em 0;
-  margin: 1em 28%;
+  font-weight: 200;
+  font-size: 2.75em;
+  margin: 1em 28% 1% ;
   border-bottom: 2px solid #999;
 }
 
-.project ul {
-  margin: 1em 0 1em 1.5em;
+.project h5 {
+  font-size: 1.1em;
+}
+
+.project .explanation {
+  margin: 0.5em 0 1em 1.5em;
   font-size: 2em;
   padding: 0;
 }
@@ -208,6 +208,7 @@ header {
     height: 100%;
     background-color: rgba(30,30,30,0.8);
 }
+
 .close {
     display: block;
     border: none;
@@ -224,6 +225,7 @@ header {
     top: 0.25em;
     right: 0.25em;
 }
+
 .getstarted {
     display: block;
     width: 400px;
