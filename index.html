@@ -5,7 +5,8 @@
     <title>KJG</title>
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Didact+Gothic">
     <link rel="stylesheet" href="style.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   </head>
   <body>
     <header>
@@ -15,12 +16,10 @@
         </div>
 
         <nav id="menu">
-          <ul>
-            <li><a href="#banner" class="active">Home</a></li>
-            <li><a href="#aboutMe">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#footer-content">Links</a></li>
-          </ul>
+            <a href="#banner" class="active">Home</a>
+            <a href="#aboutMe">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#footer-content">Links</a>
         </nav>
       </div>
 
@@ -35,7 +34,8 @@
       <div>
         <img src="images/n-profile.jpg" alt="profile">
         <ul class="description">
-          <li>FullStack web developer with a soft spot for front-end functionality.</li>
+          <li>I have a soft spot for front-end functionality.</li>
+          <li>Campfires, photography, music, and code.</li>
           <li>I build websites. Let me help you.</li>
         </ul>
       </div>
@@ -60,11 +60,15 @@
           <ul class="explanation">
             <li>Bitmaker Web Development Final Project. </li>
             <li>Price Comparisons between Uber and Lyft services. </li>
+            <button type="button" class="more_info">more info</button>
 
             <div class="modal">
-              <h3>more info</h3>
+              <div class="getstarted">
+                <button type="button" class="close">x</button>
+                more info
+              </div>
             </div>
-            <button class="more_info">more info</button>
+
           </ul>
         </div>
       </div>
