@@ -34,8 +34,10 @@
       <h2 class="title">About Me</h2>
       <div>
         <img src="images/n-profile.jpg" alt="profile">
-        <p class="description">I am an aspiring front-end web developer and currently a student of Bitmaker Labs.
-        I build websites. Let me help you.</p>
+        <ul class="description">
+          <li>FullStack web developer with a soft spot for front-end functionality.</li>
+          <li>I build websites. Let me help you.</li>
+        </ul>
       </div>
     </section>
 
@@ -51,26 +53,45 @@
 
     <section id="projects">
       <h2 class="title">Projects</h2>
-      <div class="project one" id="scoopfare">
+      <div class="project" id="scoopfare">
         <img src="images/scoopfare.svg" alt="ScoopFare">
-        <div class="text">
+        <div class="text one">
           <a target="_blank" href="http://www.scoopfare.com"><h3>ScoopFare</h3></a>
-          <p class="explanation">Bitmaker Web Development Final Project. </p>
-          <p class="explanation">Price Comparisons between Uber and Lyft services. </p>
+          <ul class="explanation">
+            <li>Bitmaker Web Development Final Project. </li>
+            <li>Price Comparisons between Uber and Lyft services. </li>
+
+            <div class="modal">
+              <h3>more info</h3>
+            </div>
+            <button class="more_info">more info</button>
+          </ul>
         </div>
       </div>
-      <div class="project two three">
-        <div class="text">
+      <div class="project">
+        <div class="text two">
           <a target="_blank" href="https://serene-sea-80737.herokuapp.com/"><h3>Rainforest</h3></a>
-          <p class="explanation">
-            RESTful Routes, database relationships, validations, migrations
-          </p>
+          <ul class="explanation">
+            <li>RESTful Routes, database relationships, validations, migrations</li>
+          </ul>
         </div>
-        <div class="text">
-          <a target="_blank" href="https://serene-sea-80737.herokuapp.com/"><h3>img</h3></a>
-          <p class="explanation">
-            RESTful Routes, model relations, photo-hosting app. Simple imgur clone. Intro to MVC architecture.
-          </p>
+        <div class="text three">
+          <a target="_blank" href="https://serene-sea-80737.herokuapp.com/"><h3>Photogur</h3></a>
+          <ul class="explanation">
+            <li>RESTful Routes, model relations, photo-hosting app. Simple imgur clone. Intro to MVC architecture.</li>
+          </ul>
+        </div>
+        <div class="text four">
+          <a target="_blank" href="https://serene-sea-80737.herokuapp.com/"><h3>PokeGIFs</h3></a>
+          <ul class="explanation">
+            <li>Using pokemon and giphy APIs to make a simple PokeGIF API with a single endpoint <code>/pokemon/:id</code></li>
+          </ul>
+        </div>
+        <div class="text five">
+          <a target="_blank" href="https://serene-sea-80737.herokuapp.com/"><h3>TicTacToe</h3></a>
+          <ul class="explanation">
+            <li>Simple Game of TicTacToe coded in vanilla JS</li>
+          </ul>
         </div>
       </div>
     </section>
