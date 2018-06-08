@@ -61,8 +61,7 @@ header {
 
 #menu {
   letter-spacing: 2px;
-  display: flex;
-  align-items: center;
+  align-self: center;
 }
 
 #menu a {
