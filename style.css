@@ -117,7 +117,7 @@ header {
 
 .wrap {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 40% 60%;
 }
 
 .profilepic {
@@ -132,7 +132,12 @@ header {
 }
 
 .description {
-  font-size: 1.5em;
+  font-size: 1.75em;
+}
+
+
+#map {
+    height: 100%;
 }
 
 .links {
@@ -149,9 +154,7 @@ header {
   padding: 0 !important;
 }
 
-#map {
-    height: 100%;
-  }
+
 
 /* Tools Section */
 
@@ -257,6 +260,7 @@ header {
     background-color: #b9c2cc;
     position: absolute;
     margin: auto;
+    text-align: left;
     top: 0;
     bottom: 0;
     left: 0;
