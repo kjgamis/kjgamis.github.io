@@ -149,6 +149,10 @@ header {
   padding: 0 !important;
 }
 
+#map {
+    height: 100%;
+  }
+
 /* Tools Section */
 
 #build {
