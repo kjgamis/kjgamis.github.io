@@ -22,7 +22,7 @@ a {
 }
 
 .title {
-  font-size: 3.5em;
+  font-size: 2em;
   padding: 3% 0 2.5% 0;
   text-align: center;
 }
@@ -109,6 +109,8 @@ header {
   color: #6e6e6e;
 }
 
+/* About Me Section */
+
 #aboutMe {
   background: #e3e3e0;
   overflow: hidden;
@@ -132,7 +134,7 @@ header {
 }
 
 .description {
-  font-size: 1.75em;
+  font-size: 0.5em;
 }
 
 
@@ -140,10 +142,6 @@ header {
   height: 70%;
   margin: 3em 0 0 3em;
   width: 80%;
-}
-
-.links {
-  /* text-align: center; */
 }
 
 .links img {
@@ -155,8 +153,6 @@ header {
 .special {
   padding: 0 !important;
 }
-
-
 
 /* Tools Section */
 
@@ -191,8 +187,8 @@ header {
 
 .project {
   padding: 2em 3em;
-  display: grid;
-  grid-template-columns: 50% 50%;
+  /* display: grid;
+  grid-template-columns: 50% 50%; */
   text-align: center;
 }
 
@@ -299,24 +295,21 @@ footer {
   text-align: center;
 }
 
-@media screen and (max-width: 320px) {
+
+@media (min-device-width: 426px) {
   .title {
-    font-size: 1em;
+    font-size: 3.5em;
   }
 
-  #menu {
-    display: none;
+  .project {
+    /* padding: 2em 3em; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* text-align: center; */
   }
 
-  #banner {
-
+  .description {
+    font-size: 1.75em;
   }
 
-  #tagline {
-    font-size: 3em;
-  }
-
-  #identity {
-    font-size: 1em;
-  }
 }
