@@ -149,6 +149,24 @@
       </div>
     </section>
 
+    <!-- Handlebars -->
+    <section id="projects">
+      <h2 class="title">Projects</h2>
+      <script id="project-template" type="x-handlebars-template">​
+				{{#each this}}
+          <div class="project" id="{{name}}"></div>
+          <img src="" alt="{{name}}"/>
+          <div class="text">
+            <a target="_blank" href="{{link}}"><h3>{{name}}</h3></a>
+            <h5> < <a target="_blank" href="{{link}}">Live</a> | <a target="_blank" href="{{code}}">Code</a> > </h5>
+          </div>
+          <ul class="explanation">
+            <li>{{description}}</li>
+          </ul>
+				</script> 
+
+    </section>
+
     <footer>
 
       <div id="maker">
