@@ -1,0 +1,71 @@
+[
+  {
+    "name": "ScoopFare",
+    "link": "https://www.scoopfare.com/",
+    "code": "https://github.com/hnaseem1/taxi-fare-api",
+    "description" : [
+      "Bitmaker Web Development Final Project.",
+      "Rails app comparing prices between Uber and Lyft services.",
+      "Built with RESTful API.",
+      "My primary responsibilities were translating image mockups to code. I worked with our designer to maintain consistency between our page views, and ensuring proper user navigation."
+    ]
+  },
+  {
+    "name": "VisionZero Project",
+    "link": "https://drive.google.com/file/d/1dkpOeJoY50C3wGAGSdRG4l_42FkU_m_6/view",
+    "code": "https://github.com/hnaseem1/visionzerochallange/",
+    "description" : [
+      "Web based mapping tool for the city of Toronto displaying Toronto Police Service’s data from the Open Data Portal for all traffic collisions where a person was either killed or seriously injured (KSI) from 2007‐2017 by mode of travel."
+    ]
+  },
+  {
+    "name": "SimpList",
+    "link": "https://simp-list.herokuapp.com/",
+    "code": "https://github.com/kjgamis/todo-crud",
+    "description" : [
+      "Simple todo list app with basic CRUD operations. Built with React JS front-end and Rails back-end."
+    ]
+  },
+  {
+    "name": "Solar",
+    "link": "https://solar-weather.herokuapp.com/",
+    "code": "https://github.com/kjgamis/weather-app",
+    "description" : [
+      "Weather Finder App that returns the forecast of queried area obtained from OpenWeatherMap API.",
+      "Units in metrics. Built with React JS."
+    ]
+  },
+  {
+    "name": "PokeGIFs",
+    "link": "http://pokegifs.herokuapp.com/",
+    "code": "https://github.com/kjgamis/pokegifs",
+    "description" : [
+      "Using pokemon and giphy APIs to make a simple PokeGIF API with a single endpoint <code>/pokemon/:id</code>",
+      "Built with Rails."
+    ]
+  },
+  {
+    "name": "IMg",
+    "link": "https://imgeapp.herokuapp.com/",
+    "code": "https://github.com/kjgamis/photogur",
+    "description" : [
+      "Simplified photo-hosting app as an introduction to MVC architecture. Built RESTful Routes on Rails."
+    ]
+  },
+  {
+    "name": "Rainforest",
+    "link": "https://rainforestapp.herokuapp.com/",
+    "code": "https://github.com/kjgamis/Project-Rainforest---Guga-Karen-Hasan",
+    "description" : [
+      "Simplified e-commerce Rails app. Group project to learn about nested routing, database relationships, and authorization."
+    ]
+  },
+  {
+    "name": "TicTacToe",
+    "link": "",
+    "code": "https://github.com/kjgamis/TicTacToe",
+    "description" : [
+      "Simple Game of TicTacToe coded in vanilla JS."
+    ]
+  }
+]
