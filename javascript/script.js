@@ -39,12 +39,12 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // Get data about our products from products.json for handlebars
-  $.getJSON( "projects.json", function( data ) {
-		// Write the data into our global variable.
-		projects = data;
-		// Call a function to create HTML for all the products.
-		generateAllProjectsHTML(projects);
-	});
+  // $.getJSON( "projects.json", function( data ) {
+	// 	// Write the data into our global variable.
+	// 	projects = data;
+	// 	// Call a function to create HTML for all the products.
+	// 	generateAllProjectsHTML(projects);
+	// });
 
 
 });
