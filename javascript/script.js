@@ -35,12 +35,17 @@ document.addEventListener('DOMContentLoaded', function() {
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
-    } // End if
+    }
   });
 
-  // maps
-  // 
-  // initMap();
+  // Get data about our products from products.json for handlebars
+  $.getJSON( "projects.json", function( data ) {
+		// Write the data into our global variable.
+		projects = data;
+		// Call a function to create HTML for all the products.
+		generateAllProjectsHTML(projects);
+	});
+
 
 });
 
@@ -297,4 +302,15 @@ function initMap() {
   });
 
   marker.setMap(map);
+}
+
+// This function is called only once - on page load.
+// It fills up the products list via a handlebars template.
+// It recieves one parameter - the data we took from products.json.
+function generateAllProjectsHTML(data){
+  var projects = $("#projects")
+	var theTemplateScript = $("#projects-template").html();
+	//Compile the template​
+	var theTemplate = Handlebars.compile (theTemplateScript);
+	projects.append(theTemplate(data));
 }
