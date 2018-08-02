@@ -8,19 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Dosis" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
-
-    <link rel = "stylesheet"
-       href = "https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel = "stylesheet" href = "/materialize/materialize.min.css">
-    <script type = "text/javascript"
-       src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src = "/materialize/materialize.min.js"></script>
-
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6AxdAXLenCXGjDMhJQkogF1f9Y33vkTY&callback=initMap">
-    </script>
-    <script async defer type="text/javascript" src="/javascript/script.js"></script>
-
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123130196-1"></script>
     <script>
@@ -63,7 +51,7 @@
             <a target="_blank" href="https://github.com/kjgamis"><img src="assets/images/github.svg" alt="github"></a>
           </div>
         </div>
-        <div class="card">
+        <div class="text">
           <ul class="description">
             <li>Toronto based techie. Full stack knowledge with a soft spot for front-end functionality.</li>
             <li>My life consists of campfires, photography, and code.</li>
@@ -88,94 +76,83 @@
 
     <section id="projects">
       <h2 class="title">Projects</h2>
-      <!-- ScoopFare -->
+      <div class="project" id="scoopfare">
+        <img src="assets/images/scoopfare.svg" alt="ScoopFare">
+        <div class="text one">
+          <a target="_blank" href="https://www.scoopfare.com/"><h3>ScoopFare</h3></a>
+          <h5> < <a target="_blank" href="http://www.scoopfare.com">Live</a>  |  <a target="_blank"  href="https://github.com/hnaseem1/taxi-fare-api">Code</a> > </h5>
+          <ul class="explanation">
+            <li>Bitmaker Web Development Final Project. </li>
+            <li>Rails app comparing prices between Uber and Lyft services.</li>
+            <li>Built with RESTful API.</li>
+            <button type="button" class="more_info">more info</button>
+
+            <!-- modal appears when more info is clicked -->
+            <div class="modal">
+              <div class="getstarted">
+                <button type="button" class="close">x</button>
+                <h4>
+                  My primary responsibilities were translating image mockups to code. I worked with our designer to maintain consistency between our page views, and ensuring proper user navigation.
+                </h4>
+              </div>
+            </div>
+
+          </ul>
+        </div>
+      </div>
       <div class="project">
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light waves-effect waves-block waves-light">
-            <img src="assets/images/scoopfare.png" alt="ScoopFare">
-          </div>
-          <div class="card-content activator grey-text text-darken-4">
-            <h3>ScoopFare</h3>
-            <ul class="explanation">
-              <li>Bitmaker Web Development Final Project. </li>
-              <li>Rails app comparing prices between Uber and Lyft services.</li>
-              <li>Built with RESTful API.</li>
-            </ul>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">
-              Accomplishments
-              <i class="material-icons right">close</i>
-            </span>
-            <ul>
-              <li>Translated image mockups to code </li>
-              <li>orked with our designer to maintain consistency between our page views, and ensuring proper user navigation</li>
-            </ul>
-            <h5> < <a target="_blank" href="http://www.scoopfare.com">Live</a>  |  <a target="_blank"  href="https://github.com/hnaseem1/taxi-fare-api">Code</a> > </h5>
-          </div>
+        <div class="text">
+          <h3>VisionZero Project</h3>
+          <h5> < <a target="_blank" href="https://drive.google.com/file/d/1dkpOeJoY50C3wGAGSdRG4l_42FkU_m_6/view">Documentation</a> | <a target="_blank" href="https://github.com/hnaseem1/visionzerochallange/">Code</a> ></h5>
+          <ul class="explanation">
+            <li>Web based mapping tool for the city of Toronto displaying Toronto Police Service’s data from the Open Data Portal for all traffic collisions where a person was either killed or seriously injured (KSI) from 2007‐2017 by mode of travel</li>
+          </ul>
         </div>
-        <!-- VisionZero -->
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img src="" alt="">
-          </div>
-          <div class="card-content activator grey-text text-darken-4">
-            <h3>VisionZero Project</h3>
-            <ul class="explanation">
-              <li>Web based mapping tool for the city of Toronto displaying Toronto Police Service’s data from the Open Data Portal for all traffic collisions where a person was either killed or seriously injured (KSI) from 2007‐2017 by mode of travel</li>
-            </ul>
-          </div>
-          <div class="card-reveal">
-            <h5> < <a target="_blank" href="https://drive.google.com/file/d/1dkpOeJoY50C3wGAGSdRG4l_42FkU_m_6/view">Documentation</a> | <a target="_blank" href="https://github.com/hnaseem1/visionzerochallange/">Code</a> ></h5>
-          </div>
+        <div class="text">
+          <h3>SimpList</h3>
+          <h5> < <a target="_blank" href="http://simp-list.herokuapp.com/">Live</a>  |  <a target="_blank" href="https://github.com/kjgamis/todo-crud">Code</a> ></h5>
+          <ul class="explanation">
+            <li>Simple todo list app with basic CRUD operations. Built with React JS front-end and Rails back-end.</li>
+          </ul>
         </div>
-        <!-- SimpList -->
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img src="" alt="">
-          </div>
-          <div class="card-content activator grey-text text-darken-4">
-            <h3>SimpList</h3>
-            <ul class="explanation">
-              <li>Simple todo list app with basic CRUD operations. Built with React JS front-end and Rails back-end.</li>
-            </ul>
-          </div>
-          <div class="card-reveal">
-            <h5> < <a target="_blank" href="http://simp-list.herokuapp.com/">Live</a>  |  <a target="_blank" href="https://github.com/kjgamis/todo-crud">Code</a> ></h5>
-          </div>
+        <div class="text">
+          <h3>Solar</h3>
+          <h5> < <a target="_blank" href="https://solar-weather.herokuapp.com/">Live</a>  |  <a target="_blank" href="https://github.com/kjgamis/weather-app">Code</a> ></h5>
+          <ul class="explanation">
+            <li>Weather Finder App that returns the forecast of queried area obtained from OpenWeatherMap API. </li>
+            <li>Units in metrics. Built with React JS</li>
+          </ul>
         </div>
-        <!-- Solar -->
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img src="" alt="">
-          </div>
-          <div class="card-content activator grey-text text-darken-4">
-            <h3>Solar</h3>
-            <ul class="explanation">
-              <li>Weather Finder App that returns the forecast of queried area obtained from OpenWeatherMap API. </li>
-              <li>Units in metrics. Built with React JS</li>
-            </ul>
-          </div>
-          <div class="card-reveal">
-            <h5> < <a target="_blank" href="https://solar-weather.herokuapp.com/">Live</a>  |  <a target="_blank" href="https://github.com/kjgamis/weather-app">Code</a> ></h5>
-          </div>
+        <div class="text">
+          <a target="_blank" href="http://pokegifs.herokuapp.com/"><h3>PokeGIFs</h3></a>
+          <h5> < <a target="_blank" href="http://pokegifs.herokuapp.com/">Live</a>  | <a target="_blank" href="https://github.com/kjgamis/pokegifs">Code</a> > </h5>
+          <ul class="explanation">
+            <li>Using pokemon and giphy APIs to make a simple PokeGIF API with a single endpoint <code>/pokemon/:id</code>.</li>
+            <li>Built with Rails.</li>
+          </ul>
         </div>
-        <!-- PokeGIFs -->
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img src="" alt="">
-          </div>
-          <div class="card-content activator grey-text text-darken-4">
-            <h3>PokeGIFs</h3>
-            <ul class="explanation">
-              <li>Using pokemon and giphy APIs to make a simple PokeGIF API with a single endpoint <code>/pokemon/:id</code>.</li>
-              <li>Built with Rails.</li>
-            </ul>
-          </div>
-          <div class="card-reveal">
-            <h5> < <a target="_blank" href="http://pokegifs.herokuapp.com/">Live</a>  | <a target="_blank" href="https://github.com/kjgamis/pokegifs">Code</a> > </h5>
-          </div>
+        <div class="text">
+          <a target="_blank" href="https://imgeapp.herokuapp.com/"><h3>IMg</h3></a>
+          <h5> < <a target="_blank" href="https://imgeapp.herokuapp.com/">Live</a>  |  <a target="_blank" href="https://github.com/kjgamis/photogur">Code</a> > </h5>
+          <ul class="explanation">
+            <li>Simplified photo-hosting app as an introduction to MVC architecture. Built RESTful Routes on Rails. </li>
+          </ul>
         </div>
+        <div class="text">
+          <a target="_blank" href="https://rainforestapp.herokuapp.com/"><h3>Rainforest</h3></a>
+          <h5> < <a target="_blank" href="https://rainforestapp.herokuapp.com/">Live</a>  |  <a target="_blank" href="https://github.com/kjgamis/Project-Rainforest---Guga-Karen-Hasan">Code</a> > </h5>
+          <ul class="explanation">
+            <li>Simplified e-commerce Rails app. Group project to learn about nested routing, database relationships, and authorization</li>
+          </ul>
+        </div>
+        <div class="text">
+          <h3>TicTacToe</h3>
+          <h5> < <a target="_blank" href="https://github.com/kjgamis/TicTacToe">Code</a> > </h5>
+          <ul class="explanation">
+            <li>Simple Game of TicTacToe coded in vanilla JS</li>
+          </ul>
+        </div>
+
       </div>
     </section>
 
@@ -186,7 +163,7 @@
 				{{#each this}}
           <div class="project" id="{{name}}"></div>
           <img src="" alt="{{name}}"/>
-          <div class="card">
+          <div class="text">
             <a target="_blank" href="{{link}}"><h3>{{name}}</h3></a>
             <h5> < <a target="_blank" href="{{link}}">Live</a> | <a target="_blank" href="{{code}}">Code</a> > </h5>
           </div>
@@ -205,4 +182,9 @@
     </footer>
 
   </body>
+  <script type="text/javascript" src="javascript/script.js"></script>
+  <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6AxdAXLenCXGjDMhJQkogF1f9Y33vkTY&callback=initMap">
+  </script>
+
 </html>
