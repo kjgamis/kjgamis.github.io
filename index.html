@@ -9,6 +9,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
 
+    <link rel = "stylesheet"
+       href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel = "stylesheet" href = "/materialize/materialize.min.css">
+    <script type = "text/javascript"
+       src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src = "/materialize/materialize.min.js"></script>
+
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6AxdAXLenCXGjDMhJQkogF1f9Y33vkTY&callback=initMap">
+    </script>
+    <script async defer type="text/javascript" src="/javascript/script.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123130196-1"></script>
     <script>
@@ -77,37 +89,37 @@
     <section id="projects">
       <h2 class="title">Projects</h2>
       <!-- ScoopFare -->
-      <div class="project" id="scoopfare">
-        <img src="assets/images/scoopfare.svg" alt="ScoopFare">
-        <div class="card">
-          <a target="_blank" href="https://www.scoopfare.com/"><h3>ScoopFare</h3></a>
-          <h5> < <a target="_blank" href="http://www.scoopfare.com">Live</a>  |  <a target="_blank"  href="https://github.com/hnaseem1/taxi-fare-api">Code</a> > </h5>
-          <ul class="explanation">
-            <li>Bitmaker Web Development Final Project. </li>
-            <li>Rails app comparing prices between Uber and Lyft services.</li>
-            <li>Built with RESTful API.</li>
-            <button type="button" class="more_info">more info</button>
-
-            <!-- modal appears when more info is clicked -->
-            <div class="modal">
-              <div class="getstarted">
-                <button type="button" class="close">x</button>
-                <h4>
-                  My primary responsibilities were translating image mockups to code. I worked with our designer to maintain consistency between our page views, and ensuring proper user navigation.
-                </h4>
-              </div>
-            </div>
-
-          </ul>
-        </div>
-      </div>
       <div class="project">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light waves-effect waves-block waves-light">
+            <img src="assets/images/scoopfare.png" alt="ScoopFare">
+          </div>
+          <div class="card-content activator grey-text text-darken-4">
+            <h3>ScoopFare</h3>
+            <ul class="explanation">
+              <li>Bitmaker Web Development Final Project. </li>
+              <li>Rails app comparing prices between Uber and Lyft services.</li>
+              <li>Built with RESTful API.</li>
+            </ul>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">
+              Accomplishments
+              <i class="material-icons right">close</i>
+            </span>
+            <ul>
+              <li>Translated image mockups to code </li>
+              <li>orked with our designer to maintain consistency between our page views, and ensuring proper user navigation</li>
+            </ul>
+            <h5> < <a target="_blank" href="http://www.scoopfare.com">Live</a>  |  <a target="_blank"  href="https://github.com/hnaseem1/taxi-fare-api">Code</a> > </h5>
+          </div>
+        </div>
         <!-- VisionZero -->
         <div class="card">
-          <div class="card-image">
+          <div class="card-image waves-effect waves-block waves-light">
             <img src="" alt="">
           </div>
-          <div class="card-content">
+          <div class="card-content activator grey-text text-darken-4">
             <h3>VisionZero Project</h3>
             <ul class="explanation">
               <li>Web based mapping tool for the city of Toronto displaying Toronto Police Service’s data from the Open Data Portal for all traffic collisions where a person was either killed or seriously injured (KSI) from 2007‐2017 by mode of travel</li>
@@ -119,10 +131,10 @@
         </div>
         <!-- SimpList -->
         <div class="card">
-          <div class="card-image">
+          <div class="card-image waves-effect waves-block waves-light">
             <img src="" alt="">
           </div>
-          <div class="card-content">
+          <div class="card-content activator grey-text text-darken-4">
             <h3>SimpList</h3>
             <ul class="explanation">
               <li>Simple todo list app with basic CRUD operations. Built with React JS front-end and Rails back-end.</li>
@@ -134,10 +146,10 @@
         </div>
         <!-- Solar -->
         <div class="card">
-          <div class="card-image">
+          <div class="card-image waves-effect waves-block waves-light">
             <img src="" alt="">
           </div>
-          <div class="card-content">
+          <div class="card-content activator grey-text text-darken-4">
             <h3>Solar</h3>
             <ul class="explanation">
               <li>Weather Finder App that returns the forecast of queried area obtained from OpenWeatherMap API. </li>
@@ -150,10 +162,10 @@
         </div>
         <!-- PokeGIFs -->
         <div class="card">
-          <div class="card-image">
+          <div class="card-image waves-effect waves-block waves-light">
             <img src="" alt="">
           </div>
-          <div class="card-content">
+          <div class="card-content activator grey-text text-darken-4">
             <h3>PokeGIFs</h3>
             <ul class="explanation">
               <li>Using pokemon and giphy APIs to make a simple PokeGIF API with a single endpoint <code>/pokemon/:id</code>.</li>
@@ -192,11 +204,5 @@
       </div>
     </footer>
 
-
   </body>
-  <script type="card/javascript" src="javascript/script.js"></script>
-  <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6AxdAXLenCXGjDMhJQkogF1f9Y33vkTY&callback=initMap">
-  </script>
-
 </html>
