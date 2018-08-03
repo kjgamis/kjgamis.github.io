@@ -22,7 +22,7 @@ a {
 }
 
 .title {
-  font-size: 2em;
+  font-size: 4em;
   margin: 0;
   padding: 3% 0 2.5% 0;
   text-align: center;
@@ -140,13 +140,13 @@ header {
 }
 
 .description {
-  font-size: 0.5em;
+  font-size: 1.5em;
 }
 
 
 #map {
   height: 70%;
-  margin: 3em 0 0 3em;
+  margin: 1.5em 0 0 3em;
   width: 80%;
 }
 
@@ -307,7 +307,7 @@ footer {
 
 @media (min-device-width: 426px) {
   .title {
-    font-size: 3.5em;
+    font-size: 4em;
   }
 
   .project {
@@ -324,7 +324,7 @@ footer {
   }
 
   .project .explanation {
-    font-size: 1.25em;
+    font-size: 1.5em;
     padding: 0.5em 0;
   }
 
