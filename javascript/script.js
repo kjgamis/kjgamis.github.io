@@ -1,19 +1,19 @@
 document.addEventListener('DOMContentLoaded', function() {
   // modal
-  var moreInfo     = document.querySelector('.more_info');
-  var closeButton  = document.querySelector('.close');
-  var modal        = document.querySelector('.modal');
-  var closeButton  = document.querySelector('.close');
-
-  function showModal () {
-  modal.style.display = 'block';
-  }
-  function hideModal() {
-  modal.style.display = 'none';
-  }
-
-  moreInfo.addEventListener('click', showModal);
-  closeButton.addEventListener('click', hideModal);
+  // var moreInfo     = document.querySelector('.more_info');
+  // var closeButton  = document.querySelector('.close');
+  // var modal        = document.querySelector('.modal');
+  // var closeButton  = document.querySelector('.close');
+  //
+  // function showModal () {
+  // modal.style.display = 'block';
+  // }
+  // function hideModal() {
+  // modal.style.display = 'none';
+  // }
+  //
+  // moreInfo.addEventListener('click', showModal);
+  // closeButton.addEventListener('click', hideModal);
 
 
    $("a").on('click', function(event) {
