@@ -191,36 +191,40 @@ header {
 }
 
 .project {
-  padding: 2em 3em;
-  display: grid;
+  padding: 2em 8em;
+  /* display: grid;
   grid-gap: 0.5em;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%; */
   text-align: center;
 }
 
+.project .card {
+  margin-bottom: 7em;
+}
+
+
 .project h3 {
   font-family: 'Roboto', sans-serif;
-  font-size: 2.75em;
+  font-size: 5em;
 }
 
 .project h5 {
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: 200;
 }
 
 .project .explanation {
-  margin: 0.5em 0 1em 1.5em;
-  font-size: 1em;
-  padding: 0;
+  padding: 1em 0;
 }
 
 .project li {
-  text-align: left;
+  font-size: 3em;
   list-style: none;
+  text-align: left;
 }
 
-.features li {
-  list-style: inside !important;
+.project .features li {
+  list-style: inside;
 }
 
 .more_info {
@@ -232,16 +236,20 @@ header {
     border-radius: 5px;
 }
 
-.card-action {
-  position: absolute !important;
+.project .card-content {
+  padding: 4em !important;
+}
+
+.project .card-action {
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 1.5em 2em !important;
+  padding: 1.5em 2em;
 }
 
-.card-action > a {
-  margin-right: 0 !important;
+.project .card-action > a {
+  margin-right: 0;
 }
 
 
@@ -324,21 +332,28 @@ footer {
   }
 
   .project {
-    /* padding: 2em 3em; */
+    padding: 2em 3em;
     display: grid;
     grid-gap: 0.5em;
     grid-template-columns: 33% 33% 33%;
     /* text-align: center; */
   }
 
-  .project h5 {
-    font-size: 1.1em;
-    font-weight: 200;
+  .project h3 {
+    font-size: 3em;
   }
 
   .project .explanation {
     font-size: 1.5em;
     padding: 0.5em 0;
+  }
+
+  .project li {
+    font-size: 1em;
+  }
+
+  .project .card-content {
+    padding: 2em !important;
   }
 
   .description {
