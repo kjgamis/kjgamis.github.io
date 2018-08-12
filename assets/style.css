@@ -241,14 +241,15 @@ header {
 }
 
 .project .card-action {
-  position: absolute;
+  position: absolute !important;
   bottom: 0;
   left: 0;
   right: 0;
   padding: 1.5em 2em;
 }
 
-.project .card-action > a {
+.project .card-action > h5 {
+  font-size: 2em;
   margin-right: 0;
 }
 
