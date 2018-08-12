@@ -248,9 +248,9 @@ header {
   padding: 1.5em 2em;
 }
 
-.project .card-action > h5 {
+.project .card-action > a {
   font-size: 2em;
-  margin-right: 0;
+  margin-right: 0.5em;
 }
 
 
