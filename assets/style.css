@@ -214,7 +214,7 @@ header {
 }
 
 .project .explanation {
-  padding: 1em 0;
+  padding: 1em;
 }
 
 .project li {
@@ -251,6 +251,11 @@ header {
 .project .card-action > a {
   font-size: 2em;
   margin-right: 0.5em;
+}
+
+.project .card-reveal h4 {
+  font-size: 2em;
+  padding: 0.5em 0;
 }
 
 
@@ -373,6 +378,10 @@ footer {
 
   .project .card-content {
     padding: 2em !important;
+  }
+
+  .project .card-reveal h4 {
+    font-size: 1.2em;
   }
 
   .description {
