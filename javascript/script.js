@@ -38,6 +38,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
+  // materialize hover effect
+  $('.tooltipped').tooltip();
+
+
   // Get data about our products from products.json for handlebars
   // $.getJSON( "projects.json", function( data ) {
 	// 	// Write the data into our global variable.
